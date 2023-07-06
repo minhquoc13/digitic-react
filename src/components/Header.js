@@ -72,11 +72,15 @@ const Header = () => {
                     </p>
                   </Link>
                 </div>
-                <div>
+                <div className="d-flex">
                   <Link className="d-flex align-items-center gap-10 text-white">
-                    <img src="/images/cart.svg" alt="cart"></img>
+                    <div className="position-relative">
+                      <img src="/images/cart.svg" alt="cart"></img>
+                      <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-white text-dark">
+                        9<span class="visually-hidden">unread messages</span>
+                      </span>
+                    </div>
                     <div className="d-flex flex-column gap-1">
-                      <span className="badge bg-white text-dark">0</span>
                       <p className="mb-0">$ 100</p>
                     </div>
                   </Link>
