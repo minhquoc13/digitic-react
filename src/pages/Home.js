@@ -356,11 +356,19 @@ const Home = () => {
             <div className="col-12">
               <h3 className="section-heading">Our Lastest News</h3>
             </div>
-            <div className="blog-list col-12 d-flex">
-              <BlogCard></BlogCard>
-              <BlogCard></BlogCard>
-              <BlogCard></BlogCard>
-              <BlogCard></BlogCard>
+            <div className="blog-list col-12 d-flex flex-wrap">
+              <div className="col-3">
+                <BlogCard></BlogCard>
+              </div>
+              <div className="col-3">
+                <BlogCard></BlogCard>
+              </div>
+              <div className="col-3">
+                <BlogCard></BlogCard>
+              </div>
+              <div className="col-3">
+                <BlogCard></BlogCard>
+              </div>
             </div>
           </div>
         </div>
