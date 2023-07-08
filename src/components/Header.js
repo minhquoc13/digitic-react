@@ -46,7 +46,10 @@ const Header = () => {
             <div className="col-5">
               <div className="header-upper-links d-flex align-align-items-center justify-content-between">
                 <div>
-                  <Link className="d-flex align-items-center gap-10 text-white">
+                  <Link
+                    to="/compare-product"
+                    className="d-flex align-items-center gap-10 text-white"
+                  >
                     <img src="/images/compare.svg" alt="compare"></img>
                     <p className="mb-0">
                       Compare
@@ -55,7 +58,10 @@ const Header = () => {
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-items-center gap-10 text-white">
+                  <Link
+                    to="/wishlist"
+                    className="d-flex align-items-center gap-10 text-white"
+                  >
                     <img src="/images/wishlist.svg" alt="wishlist"></img>
                     <p className="mb-0">
                       Favourite
@@ -64,7 +70,10 @@ const Header = () => {
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-items-center gap-10 text-white">
+                  <Link
+                    to="/login"
+                    className="d-flex align-items-center gap-10 text-white"
+                  >
                     <img src="/images/user.svg" alt="user"></img>
                     <p className="mb-0">
                       Log in
@@ -73,7 +82,10 @@ const Header = () => {
                   </Link>
                 </div>
                 <div className="d-flex">
-                  <Link className="d-flex align-items-center gap-10 text-white">
+                  <Link
+                    to="/cart"
+                    className="d-flex align-items-center gap-10 text-white"
+                  >
                     <div className="position-relative">
                       <img src="/images/cart.svg" alt="cart"></img>
                       <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-white text-dark">
