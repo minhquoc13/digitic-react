@@ -302,13 +302,7 @@ const Home = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-2">
-              <div className="card"></div>
-            </div>
-            <div className="col-2">
-              <div className="card"></div>
-            </div>
-            <div className="blog-list col-8 d-flex">
+            <div className="blog-list col-12 d-flex ">
               <ProductCard></ProductCard>
               <ProductCard></ProductCard>
               <ProductCard></ProductCard>

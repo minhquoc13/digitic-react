@@ -264,9 +264,13 @@ footer .input-group-text {
 /* Home page end */
 
 /* Blog Part */
+
+.blog-list .col-3 {
+  padding: 0 7px;
+}
 .blog-card {
   background-color: white;
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
 }
 .blog-card img {
@@ -298,6 +302,26 @@ footer .input-group-text {
 }
 /* Blog Part End */
 
+/* Single Blog */
+
+.single-blog-card .title {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+}
+
+.single-blog-card .desc {
+  color: var(--color-777777);
+  font-size: 14px;
+}
+
+.single-blog-card .back-to-blog {
+  font-size: 15px;
+  color: var(--color-777777);
+  margin-bottom: 20px;
+}
+/* Single Blog Here */
+
 /* Product Card */
 
 .product-card {
@@ -320,6 +344,7 @@ footer .input-group-text {
 }
 
 .product-card:hover .product-image > img:last-child {
+  width: 100%;
   display: block;
 }
 
@@ -639,4 +664,18 @@ footer .input-group-text {
   margin: 20px auto;
 }
 
+.auth-card .desc {
+  font-size: 13px;
+  color: var(--color-777777);
+}
+
 /* Auth Card End */
+
+/* Policy Pages */
+
+.policy {
+  background-color: white;
+  padding: 30px;
+}
+
+/* Policy Pages End */
