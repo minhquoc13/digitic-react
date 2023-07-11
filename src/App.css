@@ -679,3 +679,126 @@ footer .input-group-text {
 }
 
 /* Policy Pages End */
+
+/* Main product page */
+
+.desc-wrapper .heading,
+.reviews-wrapper .heading {
+  font-size: 26px;
+  color: var(--color-1c1c1b);
+}
+
+.desc-wrapper p {
+  font-size: 14px;
+  color: var(--color-777777);
+}
+.review-inner-wrapper {
+  background-color: white;
+}
+
+.review-head {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.review-head .title {
+  font-size: 18px;
+  color: var(--color-1c1c1b);
+}
+
+.review-head p,
+.review-head a {
+  font-size: 14px;
+  color: var(--color-777777);
+}
+
+.review-form h4 {
+  color: var(--color-777777);
+}
+
+.main-product-image {
+  border-radius: 10px;
+}
+
+.main-product-image > div {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.main-product-image img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+}
+
+.other-product-images {
+  background-color: white;
+  padding: 15px;
+}
+
+.other-product-images > div {
+  width: 48%;
+  padding: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.js-image-zoom__zoomed-image {
+  left: 180px !important;
+  height: 100% !important;
+  background-color: white;
+  border-radius: 10px;
+  z-index: 9;
+}
+
+.main-product-details {
+  padding: 20px;
+  background: white;
+}
+
+.main-product-details .border-bottom {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.main-product-details .title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+}
+
+.main-product-details .price {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.main-product-details .review-button,
+.main-product-details .review-count {
+  color: var(--color-777777);
+  font-size: 14px;
+}
+
+.main-product-details .product-heading {
+  font-size: 16px;
+  color: var(--color-1c1c1b);
+}
+
+.main-product-details .product-info {
+  font-size: 14px;
+  color: var(--color-777777);
+}
+
+.main-product-details .button-buynow {
+  background-color: var(--color-febd69);
+  color: black;
+  border: none;
+}
+
+.main-product-details .button-buynow:hover {
+  background-color: var(--color-232f3e);
+  color: white;
+}
+
+.main-product-details a {
+  font-size: 14px;
+  color: var(--color-777777);
+}
+
+/* Main product page end */
