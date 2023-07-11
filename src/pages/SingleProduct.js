@@ -104,7 +104,7 @@ const SingleProduct = () => {
                     <h4 className="product-heading mb-0">Colors:</h4>{" "}
                     <Color></Color>
                   </div>
-                  <div className="d-flex gap-5 flex-row align-items-center mt-2 mb-3">
+                  <div className="d-flex gap-2 flex-row align-items-center mt-2 mb-3">
                     <h4 className="product-heading mb-0">Quantity:</h4>{" "}
                     <div>
                       <input
@@ -116,7 +116,7 @@ const SingleProduct = () => {
                         style={{ width: "50px" }}
                       />
                     </div>
-                    <div className="d-flex justify-content-center align-items-center gap-15">
+                    <div className="d-flex justify-content-center align-items-center gap-15 ms-5">
                       <button className="button">Add to card</button>
                       <Link
                         className="button signup button-buynow"
