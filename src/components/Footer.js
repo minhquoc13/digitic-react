@@ -8,6 +8,8 @@ import {
   BsLink,
 } from "react-icons/bs";
 
+import newsletter from "../images/newsletter.png";
+
 const Footer = () => {
   return (
     <>
@@ -16,7 +18,7 @@ const Footer = () => {
           <div className="row align-items-center">
             <div className="col-5">
               <div className="footer-top-data d-flex gap-30 align-content-end">
-                <img src="images/newsletter.png" alt="newsletter" />
+                <img src={newsletter} alt="newsletter" />
                 <h2 className="text-white mb-0 ">Sign Up for NewsLetter</h2>
               </div>
             </div>
