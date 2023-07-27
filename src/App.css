@@ -841,3 +841,17 @@ footer .input-group-text {
 }
 
 /* Cart page ebd */
+
+/* Shipping page */
+.shipping .total {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-1c1c1b);
+}
+
+.shipping .total-price {
+  font-size: 16px;
+  color: var(--color-777777);
+}
+
+/* Shipping page end */

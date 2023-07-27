@@ -115,7 +115,48 @@ const Checkout = () => {
                 </form>
               </div>
             </div>
-            <div className="col-5"></div>
+            <div className="col-5 shipping">
+              <div className="border-bottom py-4">
+                <div className="d-flex align-items-center justify-content-between gap-10">
+                  <div className="w-75 d-flex gap-15">
+                    <div className="w-25 position-relative ">
+                      <span
+                        style={{ top: "-6px", right: "-6px" }}
+                        className="badge bg-secondary rounded-circle p-2 text-white position-absolute"
+                      >
+                        1
+                      </span>
+                      <img
+                        src="images/watch.jpg"
+                        alt="watch"
+                        className="img-fluid"
+                      />
+                    </div>
+                    <div className="">
+                      <h5 className="title">Title product</h5>
+                      <p>desc </p>
+                    </div>
+                  </div>
+                  <div className="flex-grow-1 text-end">
+                    <h5>$ 100</h5>
+                  </div>
+                </div>
+              </div>
+              <div className="border-bottom py-2">
+                <div className="d-flex justify-content-between align-items-center">
+                  <p>Subtotal</p>
+                  <p>$ 10000</p>
+                </div>
+                <div className="d-flex justify-content-between algin-items-center">
+                  <p>Shipping</p>
+                  <p>$ 10</p>
+                </div>
+              </div>
+              <div className="d-flex justify-content-between algin-items-center py-4">
+                <p className="total">Total</p>
+                <p className="total-price">$ 1100</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -33,6 +33,7 @@ const Cart = () => {
                     <p>Color: Red</p>
                   </div>
                 </div>
+                /pp
                 <div className="cart-col-2">
                   <h5 className="price">$100.00</h5>
                 </div>
